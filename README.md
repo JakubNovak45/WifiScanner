@@ -6,7 +6,7 @@ Android app made for android 6.0 (Marshmallow)
 Server script and databese run on private server with public IP
   
 ## Output
-accesing server IP displays html page with listed wifi signals
+Accesing server IP displays html page with listed wifi signals
 
 ### Prerequisites
 Flask
