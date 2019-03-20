@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+  <meta http-equiv="refresh" content="2">
+  <title>Wifi database</title>
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style.css') }}">
+  </head>
+  <body>
+    <table> 
+     <tr>
+	<th>SSID</th>
+	<th>BSSID</th>
+	<th>Security</th>
+	<th>Center freq0</th>
+	<th>Center freq1</th>
+	<th>Frequency</th>
+	<th>Level</th>
+	<th>Band width</th>
+	<th>Time stamp</th>
+     </tr> 
+     {% for data in wifi%}
+     <tr><td>{{ data.SSID }}</td>
+          <td>{{ data.BSSID }}</td>
+          <td>{{ data.security }}</td>
+          <td>{{ data.center_freq1 }} MHz</td>
+          <td>{{ data.center_freq2 }} MHz</td>
+          <td>{{ data.frequency }} MHz</td>
+          <td>{{ data.level }} dB</td>
+          <td>{{ data.channelWidth }} MHz</td>
+          <td>{{ data.timeStamp }}</td>
+      </tr>
+      {%endfor%}
+      </tr> 
+    </table>
+    <form action={{ url_for('deleteDataPage') }} method="post">
+    <button>Clear</button>
+    </form>
+  </body>
+</html>

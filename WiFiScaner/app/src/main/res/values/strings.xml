@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">WiFi Scaner</string>
+    <string name="scan_Btn">Scan</string>
+    <string name="map_Btn">Map</string>
+    <string name="back_btn">Back</string>
+    <string name="save_Btn">Save data</string>
+    <string name="tv_ssid">SSID: </string>
+    <string name="tv_signal">Signal: </string>
+    <string name="tv_security">Security: </string>
+    <string name="tv_centerFreq0">Center Frequency0: </string>
+    <string name="tv_centerFreq1">Center Frequency1: </string>
+    <string name="tv_Freq">Frequency: </string>
+    <string name="tv_Level">Level: </string>
+    <string name="tv_FriendlyName">Friendly Name: </string>
+    <string name="tv_ChanelWidth">Channel Width: </string>
+    <string name="tv_timeStamp">time Stamp: </string>
+    <string name="tv_venue">Venue: </string>
+    <string name="google_api_key">AIzaSyCIAIpz4xWMI1HOfyiP-t14kN_joCnxXos</string>
+    <string name="original_icon">android:icon="@mipmap/ic_launcher"</string>
+    <string name="URL">http://srv1.trnila.eu:5000/json</string>
+</resources>
